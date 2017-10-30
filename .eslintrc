@@ -1,0 +1,13 @@
+{
+    "extends": [
+        "jr"
+    ],
+    "rules": {
+        "no-console": 0,
+        "indent": ["error", 4],
+        "no-bitwise": 0
+    },
+    "globals": {
+        "jQuery": true
+    }
+}

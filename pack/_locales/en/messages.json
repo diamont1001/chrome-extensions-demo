@@ -1,0 +1,18 @@
+{
+   "extname": {
+      "description": "插件的名字",
+      "message": "demo"
+   },
+   "exttitle": {
+      "description": "插件的名字",
+      "message": "demo for extensions"
+   },
+   "description": {
+      "description": "插件的简介",
+      "message": "demo's description here."
+   },
+   "extlanguage": {
+      "description": "当前语言-中文",
+      "message": "en"
+   }
+}

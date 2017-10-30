@@ -1,0 +1,18 @@
+{
+   "extname": {
+      "description": "插件的名字",
+      "message": "扩展程序例子"
+   },
+   "exttitle": {
+      "description": "插件的名字",
+      "message": "扩展程序例子"
+   },
+   "description": {
+      "description": "插件的简介",
+      "message": "这里是扩展程序的描述"
+   },
+   "extlanguage": {
+      "description": "当前语言-中文",
+      "message": "zh"
+   }
+}

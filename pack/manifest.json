@@ -1,0 +1,20 @@
+{
+   "manifest_version": 2,
+   "name": "__MSG_extname__",
+   "description": "__MSG_description__",
+   "version": "1.0.0",
+
+   "browser_action": {
+      "default_icon": "icons/24.png",
+      "default_popup": "bundle/popup.html",
+      "default_title": "__MSG_exttitle__"
+   },
+   "default_locale": "zh",
+   "icons": {
+      "128": "icons/128.png",
+      "48": "icons/48.png",
+      "16": "icons/16.png"
+   },
+   "permissions": [],
+   "update_url": "https://clients2.google.com/service/update2/crx"
+}

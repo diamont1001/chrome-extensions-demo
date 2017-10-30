@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+@colorMain: #22c485; // 页面主颜色
+@colorBorder: #eee; // 边框颜色
+@colorTitle: #404040; // 标语颜色
+@colorText: #666; // 正文颜色
+@colorTips: #c3c3c3; // 提示语颜色
+
+// 单行显示点点点
+.dot {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+// 多行显示点点点
+.dots(@col) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: @col;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+
+/*去掉点击后出现的蓝色背景*/
+.tapNone {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.border-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.border-radius(@n) {
+  -webkit-border-radius: @n;
+  -moz-border-radius: @n;
+  -ms-border-radius: @n;
+  -o-border-radius: @n;
+  border-radius: @n;
+}
+
+.rotate(@n) {
+  transform: rotate(@n);
+  -webkit-transform: rotate(@n);
+  -ms-transform: rotate(@n);
+  -moz-transform: rotate(@n);
+  -o-transform: rotate(@n);
+}
+
+.transition (@property: all, @duration: 0.2s, @function: ease-out, @delay: 0s) {
+    transition: @arguments;
+    -moz-transition: @arguments;
+    -o-transition: @arguments;
+    -webkit-transition: @arguments;
+}
+

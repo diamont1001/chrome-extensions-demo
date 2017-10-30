@@ -1,0 +1,42 @@
+{
+  "name": "chrome-extensions-demo",
+  "version": "1.0.0",
+  "description": "Chrome extensions 插件扩展程序 demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w",
+    "dist": "webpack -p",
+    "lint": "eslint popup/*.js",
+    "test": "npm run lint"
+  },
+  "keywords": [
+    "chrome",
+    "extensions",
+    "plugin"
+  ],
+  "author": "材主 <diamont1001@163.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.10.0",
+    "eslint-config-jr": "^1.0.4",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diamont1001/chrome-extensions-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/diamont1001/chrome-extensions-demo/issues"
+  },
+  "homepage": "https://github.com/diamont1001/chrome-extensions-demo#readme"
+}
