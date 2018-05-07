@@ -1,6 +1,6 @@
 {
   "name": "chrome-extensions-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Chrome extensions 插件扩展程序 demo",
   "main": "index.js",
   "scripts": {
